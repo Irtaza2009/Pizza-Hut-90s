@@ -1,0 +1,70 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #fff;
+  color: #000;
+  text-align: left;
+  padding: 10px;
+  overflow: hidden;
+}
+
+header {
+  text-align: left;
+  margin: 20px 0;
+}
+
+header img {
+  width: 150px;
+  height: auto;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+main {
+  margin: 20px 0;
+}
+
+.order-form {
+  margin-top: 20px;
+}
+
+table {
+  width: auto;
+  margin: 0;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px;
+  vertical-align: middle;
+}
+
+td:first-child {
+  font-family: "Courier New", Courier, monospace;
+  width: 150px;
+}
+
+input {
+  width: 200px;
+  text-align: left;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Courier New", Courier, monospace;
+}
+
+hr {
+  border: 1px solid #000;
+}
+
+footer {
+  text-align: left;
+
+  margin-top: 0px;
+  padding: 0px;
+}

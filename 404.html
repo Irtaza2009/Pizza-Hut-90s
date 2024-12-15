@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Not Found</title>
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif;
+        text-align: center;
+        padding: 50px;
+      }
+      img {
+        width: 300px;
+        height: auto;
+      }
+      .back-home {
+        margin-top: 20px;
+        padding: 40px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Blinking 404 - Page Not Found! -->
+    <h1 style="animation: blinker 1s step-end infinite">
+      404 - Page Not Found!
+    </h1>
+    <style>
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+    </style>
+
+    <p>Oops! The page you're looking for doesn't exist.</p>
+    <marquee behavior="scroll" direction="left"
+      >Where’s the page? Not here! Try again!</marquee
+    >
+
+    <p><strong>Oops, no pizza here!</strong></p>
+    <img src="pizza-box.png" alt="Pizza Box" />
+    <p>
+      Don’t worry, you can always go back to our homepage and order your
+      favorite pizza!
+    </p>
+    <button><a href="index.html" class="back-home">Go back to Home</a></button>
+  </body>
+</html>
